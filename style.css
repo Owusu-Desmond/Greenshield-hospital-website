@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+body{
+    background-color: rgba(255, 255, 255, 0.89);
+}
+*{margin: 0px;}
+/* topnav with emergency location and working days*/
+.topnav {
+    overflow: hidden;
+    background-color: #6632cd;
+  }
+  .topNav-icons{
+      height: 0.5cm;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 12px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+
+  
+  .topnav a.active {
+    background-color: white;
+    color: black;
+  }
+  
+  /* main navigation bar*/
+#navBar{
+    background-color: #21cdc0;
+}
+.logo{
+    height: 2cm;
+    width: auto;
+}
+.Constant-in-slide-container{
+    position: absolute;
+    top: 6cm;
+    left: 30%;
+    border-radius: 10px;
+    font-size:30px;
+    font-weight: bold;
+    text-align:center;
+    font-family: 'Dongle', sans-serif;
+    font-size: 50px;
+    line-height: 1.2cm;
+}
+
+
+.text-Constant-in-slide-container{
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+
+}
+
+.come-first-text:first-of-type {    /* For increasing performance 
+                       ID/Class should've been used. 
+                       For a small demo 
+                       it's okaish for now */
+  animation: showup 7s infinite;
+}
+
+.come-first-text:last-of-type {
+  width:0px;
+  animation: reveal 7s infinite;
+}
+
+.text-Constant-in-slide-container:last-of-type span {
+  margin-left:-355px;
+  animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:355px;}
+}
+
+
+/* self writing text in the slide images */
+/* self writing text in the slide images */
+
+
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+
+.hidden {
+  opacity:0;
+}
+.console-container {
+  font-size:50px;
+  text-align:center;
+  display:block;
+  color:white;
+ 
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
+
+.emergency-cases-container{
+    position: relative;
+    margin-top: -0.5cm;
+    margin-left: 3%;
+    margin-right: 3%;
+  
+}
+
+.emergency-cases-container > .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.emergency-cases{
+    background-color: #21cdc0;
+    padding: 1cm;
+    color: white;
+    border-top-left-radius:20px ;
+    border-bottom-left-radius:20px ;
+
+}
+.doctorsTimetable{
+    background-color: #6632cd;
+    padding: 1cm;
+    color: white;
+
+}
+.viewTimeTable{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 1s;
+   
+}
+.viewTimeTable:hover{
+    background-color: white;
+    color: #21cdc0;
+}
+.openingHours{
+    background-color: #4b09ce;
+    padding: 1cm;
+    color: white;
+    border-top-right-radius:20px ;
+    border-bottom-right-radius:20px ;
+}
+h1{
+    font-family: 'Dongle', sans-serif;
+    font-size: 60px;
+    margin-left: 10%;
+    line-height: 1.2cm;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+}
+/*improving-quality-content*/
+
+.improving-quality-content{
+    display: grid;
+    grid-gap: 1cm;
+    grid-template-columns: 1fr 1fr;
+    font-size: 23px;
+    margin-right: 6%;
+}
+
+.ourGoalContent-1{
+    display: grid;
+    grid-gap: 10px;
+    color: rgb(92, 8, 92);
+    font-weight: bold;
+
+}
+.youtube-video{
+    grid-column: 1 / span 2;
+}
+.youtube-video > p{
+    color: #21cdc0;
+    text-align: center;
+}
+.ourGoalContent-2{
+    opacity: 0.7;
+}
+
+/* medcity-container*/
+/*medcity-container*/
+.medcity-container{
+    background-color: #21cdc0;
+    font-family: 'Dongle', sans-serif;
+}
+.medcity-container > p{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height: 1.2cm;
+    padding-top: 3cm;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0.5cm;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.card-container > div > img{
+    width: 100%;
+    border-radius: 20px;
+}
+.care-for-us-text{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+   
+}
+/* about doctors in greensheild hospital*/
+.doctors-container{
+    width: 100%;
+}
+.doctors-container > .doc-title{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Dongle', sans-serif;
+    text-align: center;
+}
+.doctors-container > .sub-title{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0.7;
+}
+.doctors-card{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+@media screen and  (max-width: 800px){
+    .emergency-cases-container > .grid{
+    grid-template-columns:repeat(auto-fill, minmax(400px, 1fr));
+}
+    .card-container{
+    grid-template-columns: 1FR 1fr;
+       
+    }
+
+    .improving-quality-content{
+        grid-template-columns: 1fr;
+    }
+
+    .medcity-container > p{
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        margin-left: 5%;
+        margin-right: 5%;
+        line-height: 1.2cm;
+    }
+    .Constant-in-slide-container{
+        position: absolute;
+        top: 7cm;
+        left: 20%;     
+        font-size:25px;
+        font-weight: bold;
+        text-align:center;
+        font-family: 'Dongle', sans-serif;
+ 
+    }
+
+    .emergency-cases{
+
+        border-top-left-radius:20px ;
+        border-bottom-left-radius:0;
+        border-top-right-radius:20px;
+    
+    }
+
+    .openingHours{
+        border-top-right-radius:0 ;
+        border-bottom-left-radius:20px ;
+        border-bottom-right-radius:20px ;
+    }
+
+
+    
+}
+
+
+@media screen and  (max-width: 700px){
+.doctors-card{
+ 
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+}
+}
