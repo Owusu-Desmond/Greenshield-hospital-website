@@ -4,7 +4,7 @@ Greenshield hospital is a hospital that provides medical services to the communi
 
 ## Screenshot 
 
-![Greenshield hospital]
+![Greenshield hospital](https://user-images.githubusercontent.com/92303891/189729291-d5523f74-9a7e-43e2-a97c-b1342e088d11.webm)
 
 ## Setup
 
@@ -21,7 +21,7 @@ Open the index.html file in the _Greenshield-hospital-website_ folder  using any
 ## Live Demo Link
 
 Access the the online version of my application with this link
-[Live Demo](https://nifty-murdock-24a3ea.netlify.app/)
+[Live Demo](https://owusu-desmond.github.io/Greenshield-hospital-website/)
 
 ## Build With
 
@@ -47,11 +47,11 @@ Access the the online version of my application with this link
 
 👤 **Demakpor Eluzai Dorm**
 
-    ...
+- ..
 
 👤 **Adams Coffie Solomon**
 
-    ...
+- ..
 
 👤 **Frederick Acquah**
 
