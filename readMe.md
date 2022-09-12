@@ -4,7 +4,7 @@ Greenshield hospital is a hospital that provides medical services to the communi
 
 ## Screenshot 
 
-![Greenshield hospital](https://user-images.githubusercontent.com/92303891/189729291-d5523f74-9a7e-43e2-a97c-b1342e088d11.webm)
+[Greenshield hospital](https://user-images.githubusercontent.com/92303891/189729291-d5523f74-9a7e-43e2-a97c-b1342e088d11.webm)
 
 ## Setup
 
